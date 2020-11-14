@@ -1,2 +1,2 @@
 # BigIntegerCpp
-An implementation to big integers (more than 64-bit) in C++.
+An implementation to big integers (larger than 64-bit) in C++.
