@@ -5,4 +5,4 @@ Only *unsigned* integers are currently implemented.
 
 This library contains a single class which is **unsignedBigInteger**.
 
-This class is described in the other (.md) files.
+This class is described in the Documentation folder.
