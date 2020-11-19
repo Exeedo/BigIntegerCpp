@@ -1,0 +1,18 @@
+# Constructors and Destructor
+The class of **unsignedBigInteger** can be constructed in these ways:
+
+- ### unsignedBigInteger()
+This constructor does not takes in an input. It will create a new **unsignedBigInteger** with the value of 0.
+
+- ### unsignedBigInteger(const unsignedBigInteger& other)
+This constructor takes another **unsignedBigInteger** variable by reference as an input. It will copy the contents of **other** to the new constructed variable.
+
+- ### unsignedBigInteger(unsigned long long other)
+This constructor takes an unsigned 64-bit integer as an input. It will create a new variable with initialized with the value of **other**.
+
+- ### unsignedBigInteger(std::string str, unsigned int base = 10)
+This constructor takes a string and an unsigned integer as inputs. It will create a new variable initialized with the numeric value of the string **str** in the **base**.
+This function is only supported to bases 10 (decimal - default value) and 16 (hexadecimal). In case of wrong entry, it will initialize by 0. 
+Wrong entries include wrong value of **str** in **base**, or wrong bases other than the supported ones.
+
+- This class has a destructor **~unsignedBigInteger()** which will destruct its members.
